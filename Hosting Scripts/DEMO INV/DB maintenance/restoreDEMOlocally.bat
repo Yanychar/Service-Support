@@ -9,7 +9,8 @@ echo     It supposed that inventory_sql_dump is stored next to this script
 
 echo 1. Configuration...
 
-set db_path="c:\Program Files\PostgreSQL\9.4\bin"
+REM set db_path="c:\Program Files\PostgreSQL\9.4\bin"
+set db_path="c:\Program Files\PostgreSQL\9.1\bin"
 
 echo 2. Drop and re-create tables ...
 

@@ -9,7 +9,8 @@ echo     2. Backup database
 
 echo 1. Configuration...
 
-set postgresql_path="C:\Program Files\PostgreSQL\9.4\bin"
+REM set postgresql_path="C:\Program Files\PostgreSQL\9.4\bin"
+set postgresql_path="C:\Program Files\PostgreSQL\9.1\bin"
 
 echo .              ... configured!
 
