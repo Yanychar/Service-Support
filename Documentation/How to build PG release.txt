@@ -1,0 +1,15 @@
+
+1. To build release package: 
+cordova build android --release
+
+2. Verify that "ant.properties" file exists in "...\platforms\android" directory. Its content is:
+
+key.store=C:/Users/sevastia/keys/AndroidApplicationsKeys/release_key.keystore
+key.alias=tmsreleasekeykey
+
+3. Password requested during build creation is: "amT56csu981Sdf"
+
+4. Built release package can be found in "... \platforms\android\ant-build"
+
+5. Check release application "<project directory>\platforms\android\ant-build\MobiTools-release.apk",
+   open it as zip file and remove unnecessary stuff to decrease the size

@@ -1,0 +1,8 @@
+This document describes Inventory db schema scripts:
+
+Date		Script Name		Description
+-------------------------------------------------------------------------------------------------
+03.02.2015	ChangeDBSchema_1.bat	Change ACCOUNT and ORGUSER tables to allow one account 
+					per several users aka organisations
+
+28.02.2015	ChangeDBSchema_2.bat	Add Service Admin flag to the ORGANISATION table 
