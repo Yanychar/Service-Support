@@ -12,7 +12,7 @@ echo     4. Copy backup to the local computer
 echo 1. Configuration...
 
 set putty_path="C:\Program Files"
-set source_srv=ubuntu@toolsdemo.uisko.com
+set source_srv=ubuntu@tools.uisko.com
 
 set source_key=C:\Users\sevastia\keys\tmskeys\tmskey.ppk
 echo .              ... configured!
@@ -40,4 +40,3 @@ echo .                               ... copied!
 
 :exit
 
-pause
